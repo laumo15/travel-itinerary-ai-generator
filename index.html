@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/styles.css"/>
     <title>AI Travel Itinerary Generator</title>
 </head>
@@ -12,11 +13,11 @@
             <h1>AI Travel Itinerary Generator</h1>
         </header>
         <main>
-            <form>
+            <form id="itinerary-form">
                 <input type="text" placeholder="Enter your destination" autofocus required autocomplete="off" class="instructions"/>
                 <input type="submit" class="submit-button"/>
             </form>
-            <div class="itinerary">Itinerary</div>
+            <div class="itinerary" id="itinerary"></div>
         </main>
         <footer>This AI project was coded by <a href="https://github.com/laumo15" target="_blank">Laura Morelli</a> and is <a href="https://github.com/laumo15/travel-itinerary-ai-generator" target="_blank">open-sourced</a> on GitHub and <a href="https://travel-itinerary-ai-generator.netlify.app/" target="_blank">hosted</a> on Netlify.</footer>
     </div>
